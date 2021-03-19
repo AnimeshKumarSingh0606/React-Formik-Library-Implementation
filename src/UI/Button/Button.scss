@@ -1,0 +1,28 @@
+.btn {
+    cursor: pointer;
+    padding: 10px 40px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 600;
+    text-align: center;
+
+    &-primary {
+        background-color: #323EA7;
+        color: #FFF;
+        
+        &:hover {
+            background-color: #3744B8;
+        }
+    }
+
+    &-secondary {
+        background: none;
+        color: #323EA7;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
